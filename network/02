@@ -1,0 +1,2 @@
+ifconfig | grep broadcast | awk '{print $6}'
+ifconfig | grep broadcast | awk '{print $6}' | xargs ping -c 2

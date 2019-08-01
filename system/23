@@ -1,0 +1,4 @@
+login intho the ssh with root user
+ssh root@ip adress
+
+after that adduser.

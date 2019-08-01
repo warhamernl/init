@@ -1,0 +1,19 @@
+echo "ROCK PAPER SCISSORS.......(capital letters)"
+
+read hand
+
+RANDOM=$(($RANDOM % 3))
+echo "$random"
+
+if [[ $RANDOM == 0 && $hand == 'ROCK' ]];
+then
+    echo "YOU WON"
+elif [[ $RANDOM == 1 && $hand == 'PAPER' ]];
+then 
+    echo "YOU WON"
+elif [[ $RANDOM == 2 && $hand == 'SCICCORS' ]];   
+then 
+    echo "YOU WON"
+else
+    echo "YOU LOSS"
+fi

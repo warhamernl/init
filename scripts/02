@@ -1,0 +1,6 @@
+echo "Type which user to delete, followed by [ENTER]:"
+
+read user
+
+pkill -fu $user
+userdel -fr $user

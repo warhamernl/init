@@ -1,0 +1,1 @@
+cat /etc/passwd | tr ':' ' ' | awk '{print $1 $3 $9}'

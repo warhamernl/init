@@ -1,0 +1,2 @@
+with sudo crontab you can create a file in that will you can enter 5 asteriks followed by the bash script
+the * can be replaced by the following order. minute, hour, day of month, day (sunday = 0)

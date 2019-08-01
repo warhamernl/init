@@ -1,0 +1,4 @@
+it depends. if you dont fill anything in at the ssh-keygen at the part of enter file in which to save the key.
+it will auto generate in a hidden folder called .ssh
+
+if you did enter then it will be in the root
