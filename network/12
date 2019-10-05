@@ -1,1 +1,14 @@
-ipconfig getpacket en0 | grep yiaddr | awk '{print $3}'
+#!/bin/bash
+# **************************************************************************** #
+#                                                                              #
+#                                                         ::::::::             #
+#    12                                                 :+:    :+:             #
+#                                                      +:+                     #
+#    By: mlokhors <mlokhors@student.codam.nl>         +#+                      #
+#                                                    +#+                       #
+#    Created: 2019/10/04 16:28:37 by mlokhors       #+#    #+#                 #
+#    Updated: 2019/10/04 16:28:37 by mlokhors      ########   odam.nl          #
+#                                                                              #
+# **************************************************************************** #
+
+ifconfig en0 | grep broadcast | awk '{print $2}'

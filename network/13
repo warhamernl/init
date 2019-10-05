@@ -1,3 +1,19 @@
-ipconfig getpacket en0
+# **************************************************************************** #
+#                                                                              #
+#                                                         ::::::::             #
+#    13                                                 :+:    :+:             #
+#                                                      +:+                     #
+#    By: mlokhors <mlokhors@student.codam.nl>         +#+                      #
+#                                                    +#+                       #
+#    Created: 2019/10/04 16:36:37 by mlokhors       #+#    #+#                 #
+#    Updated: 2019/10/04 17:16:36 by mlokhors      ########   odam.nl          #
+#                                                                              #
+# **************************************************************************** #
+
+f1r5s1.codam.nl
+
+ifconfig en0 | grep broadcast | awk '{print $2}' | nslookup | grep  "name" | awk '{print $4}'
+
+you x
 
 check the domain name : codam.nl

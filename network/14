@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         ::::::::             #
+#    14                                                 :+:    :+:             #
+#                                                      +:+                     #
+#    By: mlokhors <mlokhors@student.codam.nl>         +#+                      #
+#                                                    +#+                       #
+#    Created: 2019/10/04 16:51:53 by mlokhors       #+#    #+#                 #
+#    Updated: 2019/10/04 16:54:02 by mlokhors      ########   odam.nl          #
+#                                                                              #
+# **************************************************************************** #
+
 cat /etc/hosts
 
-in this folder you will find the DNS servers.
+in this file you will find the DNS servers.

@@ -1,2 +1,16 @@
-ifconfig | grep broadcast | awk '{print $6}'
-ifconfig | grep broadcast | awk '{print $6}' | xargs ping -c 2
+#!/bin/bash
+# **************************************************************************** #
+#                                                                              #
+#                                                         ::::::::             #
+#    02                                                 :+:    :+:             #
+#                                                      +:+                     #
+#    By: mlokhors <mlokhors@student.codam.nl>         +#+                      #
+#                                                    +#+                       #
+#    Created: 2019/10/04 14:22:56 by mlokhors       #+#    #+#                 #
+#    Updated: 2019/10/04 14:22:56 by mlokhors      ########   odam.nl          #
+#                                                                              #
+# **************************************************************************** #
+
+
+ifconfig en0 | grep broadcast | awk '{print $6}'
+ifconfig en0 | grep broadcast | awk '{print $6}' | xargs ping -c 2 | grep "bytes from" | awk '{print $4}' | tr -d ':'

@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         ::::::::             #
+#    15                                                 :+:    :+:             #
+#                                                      +:+                     #
+#    By: mlokhors <mlokhors@student.codam.nl>         +#+                      #
+#                                                    +#+                       #
+#    Created: 2019/10/04 16:52:06 by mlokhors       #+#    #+#                 #
+#    Updated: 2019/10/04 17:00:23 by mlokhors      ########   odam.nl          #
+#                                                                              #
+# **************************************************************************** #
+
 edit the file /etc/hosts
 
-replace the ip infront of cdn.intra.42.fr to 46.19.122.85
+add  46.19.122.85 with intra.42.fr in the line

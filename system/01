@@ -1,3 +1,13 @@
-you look at virtualbox and click the debian,achine.
-in the right corner you will see the link where its installed.
-/Volumes/Storage/goinfre/mlokhors/debian
+# **************************************************************************** #
+#                                                                              #
+#                                                         ::::::::             #
+#    01                                                 :+:    :+:             #
+#                                                      +:+                     #
+#    By: mlokhors <mlokhors@student.codam.nl>         +#+                      #
+#                                                    +#+                       #
+#    Created: 2019/10/05 11:25:51 by mlokhors       #+#    #+#                 #
+#    Updated: 2019/10/05 11:25:54 by mlokhors      ########   odam.nl          #
+#                                                                              #
+# **************************************************************************** #
+
+/etc/debian_version

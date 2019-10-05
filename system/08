@@ -1,4 +1,13 @@
-it depends. if you dont fill anything in at the ssh-keygen at the part of enter file in which to save the key.
-it will auto generate in a hidden folder called .ssh
+# **************************************************************************** #
+#                                                                              #
+#                                                         ::::::::             #
+#    08                                                 :+:    :+:             #
+#                                                      +:+                     #
+#    By: mlokhors <mlokhors@student.codam.nl>         +#+                      #
+#                                                    +#+                       #
+#    Created: 2019/10/05 11:26:43 by mlokhors       #+#    #+#                 #
+#    Updated: 2019/10/05 11:26:45 by mlokhors      ########   odam.nl          #
+#                                                                              #
+# **************************************************************************** #
 
-if you did enter then it will be in the root
+~/.ssh/authorized_keys
